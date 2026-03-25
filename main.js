@@ -108,7 +108,7 @@
 //     return result * 2;
 // }
 
-let numbersArr = [1, 2, 3, 4, 5];
+// let numbersArr = [1, 2, 3, 4, 5];
 // console.log(numbersArr);
 // console.log(numbersArr[0]);
 // console.log(numbersArr[1]);
@@ -144,7 +144,62 @@ let numbersArr = [1, 2, 3, 4, 5];
 // console.log(numbersArr.indexOf(2));
 // console.log(numbersArr.includes(1));
 // console.log(numbersArr.includes(100));
-let cities = ["Moscow", "Kazan", "Volgograd"];
-if (cities.includes("Kazan")) {
-    console.log(cities.indexOf("Kazan"));
+// let cities = ["Moscow", "Kazan", "Volgograd"];
+// if (cities.includes("Kazan")) {
+//     console.log(cities.indexOf("Kazan"));
+// }
+
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true,
+//     sayHello: function () {
+//         console.log(`Hello, my name is ${name}`);
+//     }
+// };
+// console.log(user2);
+// console.log(user2.name);
+// console.log(user2.age);
+// console.log(user2["age"]);
+// let book = {
+//     title: "JavaScript",
+//     author: "Vika Tekutova",
+//     year: 2026
+// };
+// user2.age = 30;
+// user2.name = "Kirill";
+// delete user2.isStudent;
+// console.log(user2);
+// console.log(book.title);
+// console.log(book.author);
+// console.log(book.year);
+// book.year = 2025;
+// let car = {
+//     brand: "Ivan",
+//     year: 20,
+//     getInfo: function () {
+//         console.log(`Brand: ${brand}, year: ${yaer}`);
+//     }
+// };
+// for (let key in user2) {
+//     console.log(key + ": " + user2[key]);
+// }
+let product = {
+    name: "iPhone 17",
+    year: 2025,
+    price: 100000
+};
+for (let key in product) {
+    console.log(key + ": " + product[key]);
 }
+let student = {
+    name: "Grisha",
+    skills: ["HTML", "CSS", "JS"],
+    address: {
+        city: "Volzhsky",
+        street: "Pushkina"
+    }
+};
+console.log(student.skills[0]);
+console.log(student.address.city);
+
