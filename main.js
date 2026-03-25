@@ -79,31 +79,72 @@
 // calculateDiscount(100);
 // calculateDiscount(100, 20);
 
-const add = function (a, b) {
-    return a + b;
-};
-console.log(add(2, 3));
+// const add = function (a, b) {
+//     return a + b;
+// };
+// console.log(add(2, 3));
 
-function makeCounter() {
-    let count = 0;
-    return function () {
-        count++;
-        return count;
-    };
-}
-const counter = makeCounter();
-console.log(counter());
-console.log(counter());
-console.log(counter());
+// function makeCounter() {
+//     let count = 0;
+//     return function () {
+//         count++;
+//         return count;
+//     };
+// }
+// const counter = makeCounter();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
 
-function sumFunc(a, b) {
-    return a + b;
-}
-const sumFunc2 = (a, b) => a+ b;
-const double = x => x * 2;
-const sayGreeting = () => console.log("Hello");
-const square = x => x * x;
-const calculate = (a, b) => {
-    let result = a + b;
-    return result * 2;
+// function sumFunc(a, b) {
+//     return a + b;
+// }
+// const sumFunc2 = (a, b) => a+ b;
+// const double = x => x * 2;
+// const sayGreeting = () => console.log("Hello");
+// const square = x => x * x;
+// const calculate = (a, b) => {
+//     let result = a + b;
+//     return result * 2;
+// }
+
+let numbersArr = [1, 2, 3, 4, 5];
+// console.log(numbersArr);
+// console.log(numbersArr[0]);
+// console.log(numbersArr[1]);
+// console.log(numbersArr.length);
+// numbersArr.push(10);
+// console.log(numbersArr);
+// numbersArr.pop();
+// console.log(numbersArr);
+
+// let colors = ["red", "orange", "yellow"];
+// console.log(colors[0]);
+// console.log(colors[2]);
+// colors[1] = "green";
+// console.log(colors);
+
+// let students = [];
+// students.push("Vika");
+// students.push("Artem");
+// students.push("Vlad");
+// students.pop();
+// console.log(students);
+
+// let numbers2 = [10, 20, 30];
+// for (let i = 0; i < numbers2.length; i++) {
+//     console.log(numbers2[i]);
+// }
+// for (let value of numbers2) {
+//     console.log(value);
+// }
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+// console.log(numbersArr.indexOf(1));
+// console.log(numbersArr.indexOf(2));
+// console.log(numbersArr.includes(1));
+// console.log(numbersArr.includes(100));
+let cities = ["Moscow", "Kazan", "Volgograd"];
+if (cities.includes("Kazan")) {
+    console.log(cities.indexOf("Kazan"));
 }
